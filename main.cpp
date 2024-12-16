@@ -60,7 +60,7 @@ public:
     void printInfo() const override {
         Person::printInfo();
         cout << "Length of Service: " << lengthOfService
-             << " years, Basic Salary: $" << basicSalary << "\n";
+            << " years, Basic Salary: $ " << basicSalary << "\n";
     }
 };
 
